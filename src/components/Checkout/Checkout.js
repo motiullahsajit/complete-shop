@@ -2,7 +2,7 @@ import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
 import React from "react";
 import { connect } from "react-redux";
-import PaymentCard from "../PaymentForm/PaymentCard";
+import PaymentCard from "../PaymentCard/PaymentCard";
 
 const Checkout = ({ cart }) => {
   console.log(cart);
