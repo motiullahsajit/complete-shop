@@ -1,10 +1,8 @@
 import { createContext, useState } from "react";
 import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 import "./App.css";
-import CartProducts from "./components/Cart/CartProducts";
-import Checkout from "./components/Checkout/Checkout";
+import CartProducts from "./components/CartProducts/CartProducts";
 import Home from "./pages/HomePage/Home";
-// Conflict Kitchen
 
 export const UserContext = createContext();
 function App() {
@@ -24,9 +22,9 @@ function App() {
           <Route path="/cart-item">
             <CartProducts />
           </Route>
-          <Route path="/checkout">
+          {/* <Route path="/checkout">
             <Checkout />
-          </Route>
+          </Route> */}
         </Switch>
       </Router>
     </UserContext.Provider>
