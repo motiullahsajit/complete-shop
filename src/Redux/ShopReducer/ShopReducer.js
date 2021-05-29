@@ -1,7 +1,9 @@
 import * as actionType from "../Action/ActionTypes";
 // import { REHYDRATE } from "redux-persist/constants";
+import productsData from "../../fakeData/productData.json";
 
 const initialState = {
+  products: productsData,
   cart: [], //name,id,price,qty
   currentItem: [], //name,id,price(specfic)
 };

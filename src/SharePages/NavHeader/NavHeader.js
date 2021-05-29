@@ -14,9 +14,6 @@ const NavHeader = ({ cart }) => {
     });
   }, [cart]);
 
-  let myCount = JSON.parse(localStorage.getItem("cartItem"));
-  console.log(myCount, "locallstorage get item");
-
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">

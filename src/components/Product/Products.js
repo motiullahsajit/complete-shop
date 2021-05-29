@@ -1,13 +1,13 @@
-import React, { useEffect, useState } from "react";
-import productsData from "../../fakeData/productData.json";
+import React, { useEffect } from "react";
+import { useSelector } from "react-redux";
 import SingleProduct from "../SingleProduct/SingleProduct";
 
 const Products = () => {
-  const [products, setProducts] = useState([]);
-  console.log(productsData);
-  useEffect(() => {
-    setProducts(productsData);
-  }, []);
+  const ProductData = (state) => state.shop.products;
+
+  const products = useSelector(ProductData);
+  console.log(products);
+
   return (
     <div className="container">
       <div className="row">
