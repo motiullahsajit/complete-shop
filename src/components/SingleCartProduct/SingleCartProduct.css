@@ -1,0 +1,12 @@
+.cartItem .cart-img {
+  width: 80px;
+}
+
+.cart-content {
+  margin-left: 20px;
+}
+
+.cartItem input {
+  width: 60px;
+  padding: 5px 6px;
+}
