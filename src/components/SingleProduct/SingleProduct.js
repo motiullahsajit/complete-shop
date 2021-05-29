@@ -1,11 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { addToCart } from "../../Redux/Action/shopAction";
 
-const SingleProduct = ({ product }) => {
-  // console.log(product);
-
-// const u
-
+const SingleProduct = ({ product, products }) => {
+  const dispatch = useDispatch();
+  console.log(dispatch);
 
   const { _id, name, price, image } = product;
   return (
@@ -15,7 +14,12 @@ const SingleProduct = ({ product }) => {
         <div className="card-body">
           <h5 className="card-title">{name}</h5>
           <h6>Price: {price}</h6>
-          <button className="btn btn-primary">Go somewhere</button>
+          <button
+            onClick={() => dispatch(addToCart(products, _id))}
+            className="btn btn-primary"
+          >
+            Add Cart
+          </button>
         </div>
       </div>
     </div>
