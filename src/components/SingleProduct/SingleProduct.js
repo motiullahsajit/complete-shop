@@ -8,9 +8,9 @@ const SingleProduct = ({ product, products }) => {
 
   const { _id, name, price, image } = product;
   return (
-    <div className="col-lg-4">
-      <div className="card h-100" style={{ width: "18rem" }}>
-        <img src={image} className="card-img-top" alt="" />
+    <div className="col-lg-3">
+      <div className="card h-100">
+        <img style={{ height: "270px" }} src={image} className="card-img-top img-fluid" alt="" />
         <div className="card-body">
           <h5 className="card-title">{name}</h5>
           <h6>Price: {price}</h6>
