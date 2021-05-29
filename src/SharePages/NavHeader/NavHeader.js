@@ -17,9 +17,9 @@ const NavHeader = ({ cart }) => {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <div className="container-fluid">
+        <div className="container">
           <Link className="navbar-brand" to="/">
-            Conflict Kitchen
+            Complete Shop
           </Link>
           <button
             className="navbar-toggler"

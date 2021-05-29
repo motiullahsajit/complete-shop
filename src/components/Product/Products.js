@@ -10,7 +10,7 @@ const Products = () => {
 
   return (
     <div className="container">
-      <div className="row">
+      <div className="row g-5 mt-2">
         {products.map((pd) => (
           <SingleProduct product={pd} key={pd._id} products={products} />
         ))}
