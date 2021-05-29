@@ -1,0 +1,126 @@
+[{
+  "_id": 1,
+  "name": "Amazon Basics 48",
+  "price": 14.99,
+  "image": "https://images-na.ssl-images-amazon.com/images/I/71IdKRlm8%2BL._AC_SL1417_.jpg"
+}, {
+  "_id": 2,
+  "name": "Basics 15-Sheet Cross-Cut Paper",
+  "price": 114.99,
+  "image": "https://images-na.ssl-images-amazon.com/images/I/81uieoPhSzL._AC_SL1500_.jpg"
+}, {
+  "_id": 3,
+  "name": "Microfiber Sheet Set, Queen, Dark Grey",
+  "price": 22.41,
+  "image": "https://images-na.ssl-images-amazon.com/images/I/71UiEEAk0aL._AC_SL1500_.jpg"
+}, {
+  "_id": 4,
+  "name": "Suitcase Luggage",
+  "price": 74.99,
+  "image": "https://images-na.ssl-images-amazon.com/images/I/71s7HbyqzEL._AC_SL1500_.jpg"
+}, {
+  "_id": 5,
+  "name": "Shiatsu Neck and Shoulder Massager",
+  "price": 27.39,
+  "image": "https://images-na.ssl-images-amazon.com/images/I/91rvZdsOwjS._AC_SL1500_.jpg"
+}, {
+  "_id": 6,
+  "name": "Soundance Laptop Stand",
+  "price": 30,
+  "image": "https://images-na.ssl-images-amazon.com/images/I/81MN9l2nl2S._AC_SL1500_.jpg"
+}, {
+  "_id": 7,
+  "name": "ABS USB-A to Lightning Cable",
+  "price": 35.20,
+  "image": "https://images-na.ssl-images-amazon.com/images/I/61EUDPldEiL._AC_SL1500_.jpg"
+}, {
+  "_id": 8,
+  "name": "Acer Spin 5 Convertible Laptop",
+  "price": 1040,
+  "image": "https://images-na.ssl-images-amazon.com/images/I/61LHj2XV1wL._AC_SL1500_.jpg"
+}, {
+  "_id": 9,
+  "name": "Acer Swift 3 Intel Evo Thin",
+  "price": 754,
+  "image": "https://images-na.ssl-images-amazon.com/images/I/71dHWxX7C0L._AC_SL1500_.jpg"
+}, {
+  "_id": 10,
+  "name": "Fitbit Versa 3 Health & Fitness Smartwatch",
+  "price": 195,
+  "image": "https://images-na.ssl-images-amazon.com/images/I/71NVIDruxqL._AC_SL1500_.jpg"
+}, {
+  "_id": 11,
+  "name": "LETSCOM Smart Watch",
+  "price": 742,
+  "image": "https://images-na.ssl-images-amazon.com/images/I/71%2BkxwGAvJL._AC_SL1500_.jpg"
+}, {
+  "_id": 12,
+  "name": "Fitbit Charge 4 Fitness and Activity Tracker",
+  "price": 99.55,
+  "image": "https://images-na.ssl-images-amazon.com/images/I/51LcDkgKEtS._AC_SL1200_.jpg"
+}, {
+  "_id": 13,
+  "name": "OnePlus Nord N100",
+  "price": 179.99,
+  "image": "https://images-na.ssl-images-amazon.com/images/I/61Pnjh%2BFO1L._AC_SL1500_.jpg"
+}, {
+  "_id": 14,
+  "name": "Samsung Galaxy S21+ Plus 5G",
+  "price": 799.99,
+  "image": "https://images-na.ssl-images-amazon.com/images/I/618OZ5oGsyL._AC_SL1000_.jpg"
+}, {
+  "_id": 15,
+  "name": "Google Pixel 4a",
+  "price": 359,
+  "image": "https://images-na.ssl-images-amazon.com/images/I/7199N-Uz2AL._AC_SL1500_.jpg"
+}, {
+  "_id": 16,
+  "name": "UMYOGO Women's Running",
+  "price": 795,
+  "image": "https://images-na.ssl-images-amazon.com/images/I/71A4GiwLX2L._AC_UY575_.jpg"
+}, {
+  "_id": 17,
+  "name": "https://images-na.ssl-images-amazon.com/images/I/71A4GiwLX2L._AC_UY575_.jpg",
+  "price": 100,
+  "image": "https://images-na.ssl-images-amazon.com/images/I/71qVjleYKdL._AC_UX575_.jpg"
+}, {
+  "_id": 18,
+  "name": "Hey Dude Wendy Funk",
+  "price": 54.55,
+  "image": "https://images-na.ssl-images-amazon.com/images/I/51z%2BWWfRoPL._AC_UY575_.jpg"
+}, {
+  "_id": 19,
+  "name": "Fossil Women's",
+  "price": 159.99,
+  "image": "https://images-na.ssl-images-amazon.com/images/I/81gU0NVV5WL._AC_UX522_.jpg"
+}, {
+  "_id": 20,
+  "name": "Michael Kors Pyper",
+  "price": 256,
+  "image": "https://images-na.ssl-images-amazon.com/images/I/81GVnU0y0zL._AC_UX679_.jpg"
+}, {
+  "_id": 21,
+  "name": "ASUS Laptop L210",
+  "price": 296,
+  "image": "https://images-na.ssl-images-amazon.com/images/I/810BY5U9baL._AC_SX466_.jpg"
+}, {
+  "_id": 22,
+  "name": "50ft Led Strip Lights",
+  "price": 30,
+  "image": "https://images-na.ssl-images-amazon.com/images/I/81hH57gIslS._AC_SL1500_.jpg"
+}, {
+  "_id": 23,
+  "name": "LED Closet Lights",
+  "price": 38,
+  "image": "https://images-na.ssl-images-amazon.com/images/I/71NCMouWTlL._AC_SL1500_.jpg"
+}, {
+  "_id": 24,
+  "name": "CyberpowerPC Gamer",
+  "price": 741,
+  "image": "https://images-na.ssl-images-amazon.com/images/I/71xAEV4zifL._AC_SL1500_.jpg"
+}, {
+  "_id": 25,
+  "name": "Oculus Quest 2",
+  "price": 299,
+  "image": "https://images-na.ssl-images-amazon.com/images/I/615YaAiA-ML._SL1500_.jpg"
+}]
