@@ -39,7 +39,7 @@ const SingleCartProduct = ({ product }) => {
           <input onChange={handleQuantity} type="number" value={quantity} />
         </div>
         <div className="col-lg-4 text-end">
-          <h5>{totalPrice}</h5>
+          <h5>${totalPrice.toFixed(2)}</h5>
         </div>
       </div>
     </div>
