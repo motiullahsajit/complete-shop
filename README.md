@@ -3,7 +3,7 @@
 ## Details
 
 - Ecommerce shop
-- Shoping cart is added
+- Shopping cart is added
 - All the state are managed with Redux
 
 ## Technology used in front-end
