@@ -6,6 +6,7 @@ import {
   CardCvcElement,
   CardExpiryElement,
 } from "@stripe/react-stripe-js";
+import { useHistory } from "react-router";
 
 const useOptions = () => {
   const options = useMemo(
@@ -40,6 +41,8 @@ const PaymentCard = ({ cart }) => {
   });
 
   const [selectItem, setSelectItem] = useState({});
+
+  const history = useHistory()
 
   useEffect(() => {
     cart.map((pd) => setSelectItem(pd));
@@ -78,20 +81,8 @@ const PaymentCard = ({ cart }) => {
       setSuccessMessage(true);
       setErrorMessage("");
 
-      const cartInformation = { ...userData };
-      cartInformation.cartItems = cart;
-      cartInformation.payment = payload.paymentMethod;
-      cartInformation.orderDate = new Date();
-      cartInformation.status = "pending";
-
-      //post  Uesrcart data on server
-      fetch(`http://localhost:4000/addOrder`, {
-        method: "POST",
-        headers: { "Content-type": "application/json" },
-        body: JSON.stringify(cartInformation),
-      })
-        .then((res) => res.json())
-        .then((data) => console.log("order added", data));
+      history.push('/')
+   
     }
 
     // handle payment error
