@@ -40,16 +40,6 @@ const NavHeader = ({ cart }) => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/login">
-                  Login
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/signUp">
-                  Sign Up
-                </Link>
-              </li>
-              <li className="nav-item">
                 <Link className="nav-link" to="/cart-item">
                   Cart <span className="text-danger">{count}</span>
                 </Link>

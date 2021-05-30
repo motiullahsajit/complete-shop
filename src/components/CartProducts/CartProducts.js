@@ -37,13 +37,12 @@ const CartProducts = () => {
           <div className="col-lg-4 text-end">
             <h5>Subtotal</h5>
           </div>
-          {/* <div className="content-header d-flex justify-content-between "></div> */}
         </div>
         <div className="row">
           {CartProducts.length > 0
             ? CartProducts.map((pd) => (
-                <SingleCartProduct key={pd._id} product={pd} />
-              ))
+              <SingleCartProduct key={pd._id} product={pd} />
+            ))
             : `Loading.....`}
         </div>
         <div className="row justify-content-end">
