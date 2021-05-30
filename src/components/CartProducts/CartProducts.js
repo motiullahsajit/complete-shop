@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 import NavHeader from "../../SharePages/NavHeader/NavHeader";
 import SingleCartProduct from "../SingleCartProduct/SingleCartProduct";
 
@@ -46,9 +47,12 @@ const CartProducts = () => {
             : `Loading.....`}
         </div>
         <div className="row justify-content-end">
-          <div className="col-lg-6 border-top d-flex justify-content-between">
-            <div className="contetn-left"> Total</div>
-            <div className="contetn-right">{totalPrice.toFixed(2)}</div>
+          <div className="col-lg-6 border-top ">
+            <div className="cart-bottom d-flex justify-content-between">
+              <h5> Total</h5>
+              <h5>{totalPrice.toFixed(2)}</h5>
+            </div>
+            <Link to="/checkout" className="btn btn-warning">Proceed To Checkout </Link>
           </div>
         </div>
       </div>
